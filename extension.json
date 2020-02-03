@@ -1,0 +1,27 @@
+{
+    "identifier": "mattd.prettiernova",
+    "name": "prettier-nova",
+    "vendor": "mattd",
+    "description": "Lorem ipsum, dolor sit amet.",
+    "version": "1.0",
+    "categories": [],
+    
+    "main": "main.js",
+    
+    "activationEvents": [
+        "onLanguage:javascript"
+    ],
+    
+    "entitlements": {
+        "filesystem": "readwrite", "process": true
+    },
+    
+    "commands": {
+        "editor": [
+		    {
+		    	"title": "Foobar",
+		    	"command": "prettier-nova.insertFoobar"
+		    }
+	    ]
+    }
+}
